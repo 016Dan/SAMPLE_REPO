@@ -121,7 +121,8 @@ h2 {
   min-width: 240px;
   height: 100px;
   background-color: 0 0 0;
-  color: #099;
+  color: #fe7ba3;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5); 
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -130,7 +131,7 @@ h2 {
 
 .tm-page-link:hover,
 .tm-page-link.active {
-  background-color: #099;
+  background-color: #fe7ba3;
   color: white;
 }
 
@@ -173,8 +174,8 @@ h2 {
 
 .tm-aatwices-nav > ul > li a.active,
 .tm-aatwices-nav > ul > li a:hover {
-  color: #96feff;
-  border-bottom: 4px solid #96feff;
+  color: white;
+  border-bottom: 4px solid #fe7ba3;
 }
 
 .tm-list-item {
@@ -224,7 +225,7 @@ h2 {
 }
 
 .tm-footer-text {
-  padding: 10px 65px 10px 20px;
+  padding: 10px 20px 10px 20px;
   display: inline-block;
 }
 
@@ -345,7 +346,7 @@ h2 {
 
 .tm-btn-primary:hover {
   color: white;
-  background-color: #099;
+  background-color: #fe7ba3;
 }
 
 .tm-align-right {
