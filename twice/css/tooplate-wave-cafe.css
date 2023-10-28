@@ -100,6 +100,8 @@ h2 {
 .tm-site-name {
   font-size: 2.2rem;
   font-style: italic;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .tm-left-inner {
