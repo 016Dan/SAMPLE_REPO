@@ -234,7 +234,7 @@ h2 {
 }
 
 .tm-text-primary {
-  color: #3cc;
+  color: #fe7ba3;
 }
 .tm-mb-20 {
   margin-bottom: 20px;
@@ -305,7 +305,35 @@ h2 {
   padding: 40px 50px;
   box-sizing: border-box;
 }
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px; 
+}
 
+.gallery {
+  flex-basis: calc(50% - 10px); 
+  text-align: center;
+  margin: 5px; 
+  box-sizing: border-box;
+}
+
+.gallery:first-child {
+  flex: 0 0 100%; 
+}
+
+.gallery:nth-child(2),
+.gallery:nth-child(3) {
+  flex-basis: calc(50% - 10px);
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
 .tm-form-group {
   margin-bottom: 25px;
 }
