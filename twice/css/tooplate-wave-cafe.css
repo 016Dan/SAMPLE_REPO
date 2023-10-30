@@ -257,14 +257,14 @@ h2 {
   }
 }
 
-/* About */
-.tm-about-box-1 {
+/* EVENTS */
+.tm-event-box-1 {
   padding: 40px 30px 50px 0;
 }
-.tm-about-box-2 {
+.tm-event-box-2 {
   padding: 50px 40px 30px;
 }
-.tm-about-header {
+.tm-event-header {
   margin-left: 220px;
 }
 
