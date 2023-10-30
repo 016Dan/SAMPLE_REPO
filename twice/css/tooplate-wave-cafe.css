@@ -294,13 +294,13 @@ h2 {
   padding: 25px 30px;
 }
 
-/* Contact */
-.tm-contact-text-container {
+/* aboutt */
+.tm-aboutt-text-container {
   padding: 45px 50px;
   margin-bottom: 20px;
 }
 
-.tm-contact-form-container {
+.tm-aboutt-form-container {
   max-width: 460px;
   padding: 40px 50px;
   box-sizing: border-box;
@@ -309,20 +309,20 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px; 
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .gallery {
-  flex-basis: calc(50% - 10px); 
+  flex-basis: calc(50% - 10px);
   text-align: center;
-  margin: 5px; 
+  margin: 5px;
   box-sizing: border-box;
 }
 
 .gallery:first-child {
-  flex: 0 0 100%; 
+  flex: 0 0 100%;
 }
 
 .gallery:nth-child(2),
