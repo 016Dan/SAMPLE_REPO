@@ -4,14 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Meta of Twice</title>
-    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
-    <!-- https://fontawesome.com/ -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
       rel="stylesheet"
     />
     <!-- https://fonts.google.com/ -->
-    <link rel="stylesheet" href="css/tooplate-wave-cafe.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="tm-container">
@@ -939,22 +937,6 @@
           clearTimeout(timeout);
           timeout = setTimeout(setVideoSize, 100);
         };
-
-        // Play/Pause button for video background
-        const btn = $("#tm-video-control-button");
-
-        btn.on("click", function (e) {
-          const video = document.getElementById("tm-video");
-          $(this).removeClass();
-
-          if (video.paused) {
-            video.play();
-            $(this).addClass("fas fa-pause");
-          } else {
-            video.pause();
-            $(this).addClass("fas fa-play");
-          }
-        });
       });
     </script>
   </body>
